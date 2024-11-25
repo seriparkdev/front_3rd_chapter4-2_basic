@@ -1,9 +1,39 @@
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('fonts/Heebo-Light.ttf') format('ttf');
+}
 
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/Heebo-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('fonts/Heebo-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('fonts/Heebo-Bold.ttf') format('ttf');
+}
 
 
 body {
     margin: 0;
-    font-family: 'Heebo';
+    font-family: 'Heebo', sans-serif;
     padding-top: 80px;
 }
 
