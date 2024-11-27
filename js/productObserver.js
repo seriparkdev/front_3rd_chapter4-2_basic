@@ -2,7 +2,7 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             const script = document.createElement('script');
-            script.src = '/js/products.js';
+            script.src = '/js/loadProducts.js';
             document.body.appendChild(script);
 
             observer.disconnect();
